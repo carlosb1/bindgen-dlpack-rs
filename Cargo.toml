@@ -6,7 +6,13 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+ndarray = "0.13.1"
 
+
+
+[dependencies.pyo3]
+version = "0.11.1"
+features = ["extension-module"]
 
 [build-dependencies]
 bindgen = "0.31"
